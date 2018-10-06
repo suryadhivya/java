@@ -3,21 +3,21 @@ public class Main
 {
     public static void main(String[] args) 
     {
-        int n;
-        Scanner s = new Scanner(System.in);
+        int a;
+        Scanner scan = new Scanner(System.in);
         System.out.print("Enter the number you want to check:");
-        n = s.nextInt();
-        if(n > 0)
+        a = scan.nextInt();
+        if(a > 0)
         {
-            System.out.println("The given number "+n+" is Positive");
+            System.out.println("The given number "+a+" is Positive");
         }
-        else if(n < 0)
+        else if(a < 0)
         {
-            System.out.println("The given number "+n+" is Negative");
+            System.out.println("The given number "+a+" is Negative");
         }
         else
         {
-            System.out.println("The given number "+n+" is neither Positive nor Negative ");
+            System.out.println("The given number "+a+" is neither Positive nor Negative ");
         }
     }
 }
